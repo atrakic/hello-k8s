@@ -5,13 +5,13 @@ ARG IMAGE_CREATE_DATE
 ARG IMAGE_SOURCE_REVISION
 
 ARG IMAGE_DESCRIPTION="Default description"
-ARG IMAGE_VERSION=0.1.0
-ARG IMAGE_AUTHOR=unknown
-ARG IMAGE_URL=unknown
-ARG IMAGE_DOCUMENTATION=unknown
-ARG IMAGE_VENDOR=unknown
-ARG IMAGE_LICENCES=MIT
-ARG IMAGE_SOURCE=unknown
+ARG IMAGE_VERSION="0.1.0"
+ARG IMAGE_AUTHOR="Admir Trakic"
+ARG IMAGE_URL="https://hub.docker.com/r/atrakic/hello-k8s/"
+ARG IMAGE_DOCUMENTATION="https://github.com/atrakic/hello-k8s/README.md"
+ARG IMAGE_VENDOR="Admir Trakic"
+ARG IMAGE_LICENCES="MIT"
+ARG IMAGE_SOURCE="https://github.com/atrakic/hello-k8s.git"
 
 # https://github.com/opencontainers/image-spec/blob/master/annotations.md
 LABEL org.opencontainers.image.title=$IMAGE_TITLE \
