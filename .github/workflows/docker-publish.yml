@@ -14,7 +14,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: atrakic/hello-k8s
+  IMAGE_NAME: hello-k8s
 
 jobs:
   # Run tests.
