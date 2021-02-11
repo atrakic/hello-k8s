@@ -1,0 +1,9 @@
+version: '3'
+services:
+  hello-k8s:
+    build:
+      context: .
+    image: hello-k8s:latest
+    container_name: hello-k8s 
+    ports:
+      - "80:3000"
